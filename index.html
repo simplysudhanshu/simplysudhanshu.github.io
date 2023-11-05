@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
-    <meta name="description" content="Portfolio Template for Developer" />
+    <title>Sudhanshu Kulkarni</title>
+    <meta name="description" content="Developer Portfolio" />
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -16,34 +16,37 @@
       rel="stylesheet"
     />
   </head>
+  
   <body>
+    <!-- Header - top left -->
     <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/jpeg/amazon-badge.jpg"
+              alt="Sudhanshu Kulkarni"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Sudhanshu Kulkarni</span>
         </div>
+        <!-- Header - top right (menu) -->
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html#home" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
+              <a href="./index.html#experience" class="header__link">
+                Experience
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#projects" class="header__link"> Projects </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -64,7 +67,7 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="./index.html#home"> Home </a>
             </li>
 
             <li class="header__sm-menu-link">
@@ -72,33 +75,34 @@
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
+              <a href="./index.html#projects"> Experience </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
+              <a href="./index.html#projects"> Projects </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="home-hero">
+
+    <!-- HOME -->
+    
+    <section class="home-hero" id="home">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is John Doe</h1>
+        <h1 class="heading-primary">Sudhanshu Kulkarni</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente solutions for
-            complex problems
+            A software developer <br> with a rather perfect blend of research-oriented and application-oriented profile
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
+          <a href="./#about" class="btn btn--bg">Connect with me</a>
         </div>
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="http://www.linkedin.com/in/sudhanshu-kulkarni/en" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/linkedin-ico.png"
               alt="icon"
@@ -107,7 +111,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://www.github.com/simplysudhanshu" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -116,30 +120,19 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="mailto:sudhanshu.kulkarni.13@gmail.com" class="home-hero__social-icon-link" target="_blank">
             <img
-              src="./assets/png/twitter-ico.png"
+              src="./assets/png/mail-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="tel:+(1) 609-721 1446" 
+          class="home-hero__social-icon-link" target="_blank">
             <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
+              src="./assets/png/phone-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
@@ -150,14 +143,22 @@
         <div class="mouse"></div>
       </div>
     </section>
+
+    <!-- ABOUT -->
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
+          <!-- <span class="heading-sec__sub">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
             tempora explicabo quae quod deserunt eius sapiente
-          </span>
+          </span> -->
+          <div class="about__contact__content">
+          <div class="about__contact">sudhanshu.kulkarni.13@gmail.com</div>
+          <div class="about__contact">+(1) 609-721 1446</div>
+          <a href="http://www.linkedin.com/in/sudhanshu-kulkarni/en" target="_blank"><div class="about__contact">LinkedIn</div></a>
+          <a href="https://www.github.com/simplysudhanshu" target="_blank"><div class="about__contact">GitHub</div></a>
+          </div>
         </h2>
         <div class="about__content">
           <div class="about__content-main">
@@ -165,193 +166,345 @@
             <div class="about__content-details">
               <p class="about__content-details-para">
                 Hey! It's
-                <strong>John Doe</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+                <strong>Sudhanshu Kulkarni</strong>
+                and I'm a <strong> Software Developer </strong> located in
+                the San Francisco, California. I am immensely passionate about technology because I believe it can make the world a better place. My background in both theoretical and practical development allows me to seamlessly translate complex research concepts into tangible solutions that make a real-world impact. If you don't see me coding, I will be at the coffee machine.
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
+                I'm always open for collaboration. If you have an interesting idea, if you think I will be a great fit in your team, or even if you want to just grab a cup of coffee, I am always happy to connect! Check out my resume below.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
+            <a href="./assets/pdf/Sudhanshu Kulkarni-Resume.pdf#zoom=120" class="btn btn--med btn--theme dynamicBgClr" target="_blank"
+              >Resume</a
             >
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">C / C++</div>
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">git</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Frappe</div>
+              <div class="skills__skill">NodeJS</div>
+              <div class="skills__skill">SvelteJS</div>
+              <div class="skills__skill">Tensorflow</div>
+              <div class="skills__skill">Keras</div>
+              <div class="skills__skill">AWS</div>
+              <div class="skills__skill">GCP</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Kubernetes</div>
+              <div class="skills__skill">Nginx</div>
+              <div class="skills__skill">PowerBI</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="projects" class="projects sec-pad">
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__main">Experience</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Writing clean, elegant and efficient code at,
+          </span>
+        </h2>
+
+        <div class="experience__content">
+          <div class="experience__row">
+            <div class="experience__row-img-cont">
+              <a href="https://research.sfsu.edu/" target="_blank">
+                <img
+                src="./assets/jpeg/SFState_V_rgb.jpg"
+                alt="Software Screenshot"
+                class="experience__row-img"
+                loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="experience__row-content">
+              <h3 class="experience__row-content-title"><a href="https://research.sfsu.edu/" target="_blank">San Francisco State University</a></h3>
+              <h5 class="experience__row-content-subtitle">Graduate Research Assistantship</h5>
+              <h6 class="experience__row-content-date">November '22 - Present &emsp; | &emsp; <em>San Francisco, CA</em></h6>
+              <p>
+                <ul class="experience__row-content-desc">
+                  <li class="experience__row-content-desc-l1">
+                    Research in the High-Performance Computing domain with the Office of Research and Sponsored Projects at SFSU. 
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Studying the feasibility of performing scalable FFT computations “in situ” on HPC platforms for the purpose of supporting scientific data analysis workloads in exascale <a class="experience__link" href="https://www.nersc.gov/" target="_blank">NERSC</a> projects.
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Collaborations with scientists at <a class="experience__link" href="https://www.lbnl.gov" target="_blank">
+                    Lawrence Berkeley National Laboratory</a> for active research on Perlmutter, an HPE Cray EX supercomputer, achieving at least <em>10x</em> speedup in computation time compared to traditional methods.
+                  </li>
+                </ul>
+              </p>
+              <div class="skills">
+                <div class="experience__skill">C++</div>
+                <div class="experience__skill">Python</div>
+                <div class="experience__skill">High-Performance Computing</div>
+                <div class="experience__skill">Scientific Computing</div>
+                <div class="experience__skill">Open Source</div>
+                <div class="experience__skill">Data Visualization & Analysis</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience__row">
+            <div class="experience__row-img-cont">
+              <a href="https://aws.amazon.com/cloudfront/" target="_blank">
+                <img
+                  src="./assets/svg/Amazon_Web_Services_Logo (1).svg"
+                  alt="Software Screenshot"
+                  class="experience__row-img"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="experience__row-content">
+              <h3 class="experience__row-content-title"><a href="https://aws.amazon.com/cloudfront/" target="_blank">Amazon Web Services (AWS)</a></h3>
+              <h5 class="experience__row-content-subtitle">Software Development Engineering SDE - Intern</h5>
+              <h6 class="experience__row-content-date">May '23 - August '23 &emsp; | &emsp; <em>Seattle, WA</em></h6>
+              <p>
+                <ul class="experience__row-content-desc">
+                  <li class="experience__row-content-desc-l1">
+                    Designed and developed an enhanced monitoring agent to be deployed on thousands of live servers worldwide as a part of the AWS CloudFront CDN services' platform team.
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Prototyped a robust and lightweight service to ensure timely capturing and reporting of critical metrics, guaranteed to enhance service reliability by at least <em>10%</em> after full-fledged deployment on AWS servers across the world.
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Created live dashboards to provide real-time visibility into at least <em>70%</em> of all the agents running on servers, improving the team's ability to maintain reliability and diagnose potential issues.
+                  </li>
+                </ul>
+              </p>
+              <div class="skills">
+                <div class="experience__skill">Python</div>
+                <div class="experience__skill">Backend Developer</div>
+                <div class="experience__skill">Bash Scripting</div>
+                <div class="experience__skill">Dashboarding</div>
+                <div class="experience__skill">Scalablity & Reliability</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience__row">
+            <div class="experience__row-img-cont">
+              <a href="https://www.elastic.run/" target="_blank">
+                <img
+                  src="./assets/png/Elasticrun_Logo.png"
+                  alt="Software Screenshot"
+                  class="experience__row-img"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="experience__row-content">
+              <h3 class="experience__row-content-title"><a href="https://www.elastic.run/" target="_blank">ElasticRun</a></h3>
+              <h5 class="experience__row-content-subtitle">Software Engineer</h5>
+              <h6 class="experience__row-content-date">August '20 - July '22 &emsp; | &emsp; <em>Pune, IN</em></h6>
+              <p>
+                <ul class="experience__row-content-desc">
+                  <li class="experience__row-content-desc-l1">
+                    Core developer of in-house ERP system tomanage large-scale logistics and B2B eCommerce platform and responsible for more than <em>20%</em> of the entire development workload of the 'Velocity' segment of the company. 
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Worked on heavy Python-based server-side development and business-focused client-side scripting for progressive web apps, in an agile software development environment.
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Contributed to creating an automated testing framework for faster bi-weekly software deployments and creating CI/CD pipelines with Kubernetes, Helm and GitLab runners, which improved reliability and rate of deployments by <em>≈15%</em>.
+                  </li>
+                </ul>
+              </p>
+              <div class="skills">
+                <div class="experience__skill">Python</div>
+                <div class="experience__skill">Frappe Framework</div>
+                <div class="experience__skill">TypeScript</div>
+                <div class="experience__skill">PWA</div>
+                <div class="experience__skill">Full Stack Developer</div>
+                <div class="experience__skill">Git</div>
+                <div class="experience__skill">DevOps</div>
+                <div class="experience__skill">SvelteJS</div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="experience__row">
+            <div class="experience__row-img-cont">
+              <a href="https://scmindcorp.com/" target="_blank">
+                <img
+                  src="./assets/jpeg/scmind_consulting_llc_logo.jpg"
+                  alt="Software Screenshot"
+                  class="experience__row-img"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="experience__row-content">
+              <h3 class="experience__row-content-title"><a href="https://scmindcorp.com/" target="_blank">SCMiND LLC</a></h3>
+              <h5 class="experience__row-content-subtitle">IoT Specialist Intern</h5>
+              <h6 class="experience__row-content-date">March '18 - July '18 &emsp; | &emsp; <em>Princeton, NJ</em></h6>
+              <p>
+                <ul class="experience__row-content-desc">
+                  <li class="experience__row-content-desc-l1">
+                    Building IoT-enabled supply chain machinery to deliver performance monitoring, breakdown predictions, and sensor-based usage analytics on low-level Raspberry Pi microprocessor hardware. 
+                  </li>
+                  <li class="experience__row-content-desc-l1">
+                    Designed an end-to-end solution from the microprocessor to analytics dashboard, after careful evaluation of different cloud platforms like AWS, Microsoft Azure, IBM Watson, and Google Cloud Platform.
+                  </li>
+                </ul>
+              </p>
+              <div class="skills">
+                <div class="experience__skill">Python</div>
+                <div class="experience__skill">IoT</div>
+                <div class="experience__skill">Supply Chain</div>
+                <div class="experience__skill">PowerBI</div>
+                <div class="experience__skill">Microsoft Azure</div>
+                <div class="experience__skill">Raspberry Pi</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMICS + NOTABLES -->
+    <section id="notables" class="notables sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-sm">
+          <span class="heading-sec__main">Academics</span>
+          <span class="heading-sec__sub">
+            An investment in knowledge pays the best interest.
+          </span>
+        </h2>
+        <div class="notables__content">
+          <span class="academics-title"> Master of Science - Computer Science (MS-CS),&emsp;</span>
+          <span class="academics-subtitle"> San Francisco State University </span>
+          <span class="academics-date"><span style="display:inline-block; width: 26rem;"></span> May, 2024 | California, USA </span><br>
+          <span class="academics-subjects"> High Performance Computing, Quantum Computing, Data Mining, Software Engineering</span>
+
+          <span class="academics-title"> Bachelor of Engineering - Computer Engineering (BE),&emsp;</span>
+          <span class="academics-subtitle"> International Institute of Information Technology (SPPU)</span>
+          <span class="academics-date"> April, 2020  | Pune, INDIA</span><br>
+          <span class="academics-subjects"> Machine Learning & AI, Data Analytics, Cloud Computing, Cyber Security</span>
+        </div>
+
+        <span style="display:block; height: 13rem;"></span>
+      
+
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Accolades</span>
+          <span class="heading-sec__sub">
+            Learning is never limited to the classroom.
+          </span>
+        </h2>
+        <div class="notables__content">
+            <ol class="notables__ol">
+              <li class="notables__li">
+                Early career conference committee and review member for ISAV workshop at <a href="https://sc23.supercomputing.org/" target="_blank" class="notables__link"> International Conference for High-Performance Computing, Networking, Storage, and Analysis, 2023 (SC23)</a>.
+              </li>
+              <li class="notables__li">
+                Speaker at <a href="https://sc23.supercomputing.org/presentation/?id=wksp116&sess=sess115" target="_blank" class="notables__link"> ISAV '23 workshop </a> for a lightning talk on Scalable FFT project research at Denver, CO.
+              </li>
+              <li class="notables__li">
+                Contributor in the <a href="https://github.com/SENSEI-insitu/SENSEI" target="_blank" class="notables__link">Open Source SENSEI Project</a> as a new analysis backed endpoint.
+              </li>
+            </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Projects</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Innovation is an outcome of habit, not a random act.
           </span>
         </h2>
 
         <div class="projects__content">
           <div class="projects__row">
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Distributed Memory Parallel Fast Fourier Transform</h3>
+              <h5 class="projects__row-content-subtitle">SFSU, California, US</h5>
+              <h6 class="projects__row-content-date"><em>The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC23)</em></h6>
+              <p class="projects__row-content-desc">
+                The objective of our work is to enable use of the FFT as part of a scientific in situ processing chain to facilitate the analysis of data in the spectral regime. We describe the implementation of an FFT endpoint for the transformation of multi-dimensional data within the SENSEI infrastructure. Our results show its use on a sample problem in the context of a multi-stage in situ processing workflow.
+
+              </p>
+              <div class="skills">
+                <div class="projects__skill">GIS</div>
+                <div class="projects__skill">Python</div>
+                <div class="projects__skill">Google Earth Engine</div>
+                <div class="projects__skill">Neural Networks</div>
+                <div class="projects__skill">Dynamic Time Warping</div>
+                <div class="projects__skill">Signal Matching</div>
+                <div class="projects__skill">Computer Vision</div>
+              </div>
+            </div>
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+                src="./assets/png/FFT.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-1.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+          
+          <div class="projects__content">
+            <div class="projects__row">
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">Automated satellite Data Analysis System (ASDAS)</h3>
+                <h5 class="projects__row-content-subtitle">I<sup>2</sup>IT, Pune, IN</h5>
+                <h6 class="projects__row-content-date"><em>"Most Commendable Project"</em>, NES Awards 2020 | <em>Smart India Hackathon-2020</em> Finalist</h6>
+                <p class="projects__row-content-desc">
+                  Prime contributor in GIS project that employed classification algorithms like Signal Matching and Neural Networks on multi-spectral and temporal satellite data. Technical collaboration with scientists from Indian Space Research Organisation (ISRO) , National Remote Sensing Center (NRSC), India and Geospatial Design Labs, India. Authored a literature review paper on comparative critique of different techniques applied in the field.
+                </p>
+                <div class="skills">
+                  <div class="projects__skill">GIS</div>
+                  <div class="projects__skill">Python</div>
+                  <div class="projects__skill">Google Earth Engine</div>
+                  <div class="projects__skill">Neural Networks</div>
+                  <div class="projects__skill">Dynamic Time Warping</div>
+                  <div class="projects__skill">Signal Matching</div>
+                  <div class="projects__skill">Computer Vision</div>
+                </div>
+              </div>
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/png/satellite.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
-          </span>
-        </h2>
-        <div class="contact__form-container">
-          <form action="#" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
+  
+    <!-- FOOTER -->
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
+              <span>2023</span>
             </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+            <!-- <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sudhanshu-kulkarni/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
@@ -386,24 +539,23 @@
                   alt="icon"
                 />
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Sudhanshu Kulkarni</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              Software Developer
             </p>
           </div>
         </div>
 
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
+        <!-- <div class="main-footer__lower">
           &copy; Copyright 2021. Made by
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
             >Ram Maheshwari</a
           >
-        </div>
+        </div> -->
       </div>
     </footer>
 
