@@ -36,3 +36,12 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+function copy_link() 
+{
+  navigator.clipboard.writeText("https://simplysudhanshu.github.io");
+  var hid = document.getElementsByClassName("copy");
+    // Emulates jQuery $(element).is(':hidden');
+    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+        hid[0].style.visibility = "visible";}
+}
