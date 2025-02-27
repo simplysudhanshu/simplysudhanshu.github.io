@@ -794,3 +794,7 @@ a label {
   to {
     opacity: 0;
     top: 27px; } }
+
+.language-skill {
+  border: 1px solid #003366; /* Dark blue border */
+}
